@@ -1,0 +1,84 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "arrow-return-shorthand": true,
+    "class-name": true,
+    "file-name-casing": true,
+    "interface-name": true,
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "member-access": [
+      true,
+      "check-accessor",
+      "check-parameter-property"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "protected-constructor",
+          "private-constructor",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "no-any": true,
+    "no-conditional-assignment": true,
+    "no-console": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-empty-interface": true,
+    "no-for-in": true,
+    "no-inferrable-types": false,
+    "no-internal-module": true,
+    "no-invalid-template-strings": true,
+    "no-invalid-this": true,
+    "no-misused-new": true,
+    "no-parameter-reassignment": true,
+    "no-reference": true,
+    "no-require-imports": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": true,
+    "no-trailing-whitespace": true,
+    "no-unnecessary-initializer": true,
+    "no-unused-variable": false,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "only-arrow-functions": true,
+    "prefer-const": true,
+    "semicolon": true,
+    "switch-default": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "unnecessary-constructor": true,
+    "use-default-type-parameter": true
+  }
+}
